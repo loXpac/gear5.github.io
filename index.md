@@ -2,7 +2,7 @@
 layout: home
 title: Movie Datastory
 subtitle: Nique les salopes qui parlent en scred
-cover-img: "/assets/img/Decoding-cinema---A-deep-dive-into-film-studies-and-its-language.webp"
+cover-img: "/assets/img/nevjuice.jpg"
 ---
 
 # The data story name
@@ -38,10 +38,18 @@ cover-img: "/assets/img/Decoding-cinema---A-deep-dive-into-film-studies-and-its-
  <iframe src="assets/plots/movie_counts_by_genre.html" style="width: 100%; height: 450px; border: none;"></iframe>
 </div>
 
+<div style="text-align: center;">
+ <iframe src="assets/plots/movie_counts_by_genre_subset.html" style="width: 100%; height: 450px; border: none;"></iframe>
+</div>
+
 ## Part 3
 
 <div style="text-align: center;">
  <iframe src="assets/plots/success_score_distribution.html" style="width: 100%; height: 500px; border: none;"></iframe>
+</div>
+
+<div style="text-align: center;">
+ <iframe src="assets/plots/top_movies.html" style="width: 100%; height: 650px; border: none;"></iframe>
 </div>
 
 Eiusmod sit voluptate cillum cupidatat dolore aliquip ut nulla mollit. Lorem fugiat consequat aliquip laboris qui laborum enim nostrud amet reprehenderit. Non ad cupidatat id cillum velit laboris Lorem. Dolore culpa ex exercitation est id laborum sit. Ex dolor excepteur ut voluptate eiusmod tempor ad excepteur labore enim. Id amet consectetur occaecat amet eiusmod.
@@ -49,7 +57,7 @@ Eiusmod sit voluptate cillum cupidatat dolore aliquip ut nulla mollit. Lorem fug
 ## Conclusion
 
 <div style="text-align: center;">
-<iframe src="assets/plots/mean_success_score_map.html" style="width: 100%; height: 500px; border: none;"></iframe>
+<iframe src="assets/plots/precomputed_choropleth_fixed_colorbar.html" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
 
 <div style="text-align: justify;">
