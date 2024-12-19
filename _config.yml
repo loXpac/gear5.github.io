@@ -20,11 +20,14 @@ author: Bastien Armstrong, Léo Bruneau, Loïc Domingos, Mahmoud Dokmak, Matthie
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Home: "/"
+  [Introduction](/introduction)
+  [Part 1](/part1)
+  # About Me: "aboutme"
+  # Resources:
+  #  - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #  - Learn markdown: "https://www.markdowntutorial.com/"
+  # Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
