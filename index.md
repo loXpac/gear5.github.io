@@ -10,7 +10,26 @@ cover-img: "/assets/img/Decoding-cinema---A-deep-dive-into-film-studies-and-its-
 ## Introduction
 
 <div style="text-align: justify;">
-  Excepteur pariatur qui reprehenderit mollit aliqua voluptate. Voluptate nisi amet ex ea esse velit laboris deserunt Lorem aute. Laborum pariatur elit magna qui. Cillum et irure adipisicing officia. Duis laborum pariatur sint culpa duis amet exercitation. Veniam consequat tempor labore consequat reprehenderit amet irure pariatur dolore proident occaecat pariatur voluptate. Aliquip eu velit magna laboris fugiat veniam sint officia eiusmod minim deserunt magna.
+
+  Cinema has always been a mirror to society, showcasing both the highs and lows, being the canvas for the cultural statement and creating narratives that are worldwide. The question of whether there is a "Golden Age" of cinema — a point in time of outstanding creativity, cultural impact, and economic success — still continues to be a passionate subject of exploration. Given excellent sources of data, this project embarks on a journey through the history of cinema to uncover the metrics that define success, identify significant eras, and predict trends that may shape the industry's future.
+
+</div>
+
+## The dataset
+
+<div style="text-align:justify;">
+</div>
+
+<div style="text-align:justify;">
+</div>
+
+<div style="text-align:justify;">
+</div>
+
+<div style="text-align:justify;">
+</div>
+
+<div style="text-align:justify;">
 </div>
 
 <div style="display: flex; justify-content: center;">
