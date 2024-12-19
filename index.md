@@ -71,6 +71,14 @@ cover-img: "/assets/img/nevjuice.jpg"
 
 Eiusmod sit voluptate cillum cupidatat dolore aliquip ut nulla mollit. Lorem fugiat consequat aliquip laboris qui laborum enim nostrud amet reprehenderit. Non ad cupidatat id cillum velit laboris Lorem. Dolore culpa ex exercitation est id laborum sit. Ex dolor excepteur ut voluptate eiusmod tempor ad excepteur labore enim. Id amet consectetur occaecat amet eiusmod.
 
+<div style="text-align: center;">
+ <iframe src="assets/plots/bubble_plot.html" style="width: 100%; height: 620px; border: none;"></iframe>
+</div>
+
+<div style="text-align: center;">
+ <iframe src="assets/plots/horbar.html" style="width: 100%; height: 620px; border: none;"></iframe>
+</div>
+
 ## Conclusion
 
 <div style="text-align: center;">
