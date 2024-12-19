@@ -3,11 +3,9 @@ layout: home
 title: Movie Datastory
 subtitle: Nique les salopes qui parlent en scred
 cover-img: "/assets/img/SUG-229ioi.jpg"
----
+--- 
 
-# 
-
-## Introduction
+# Introduction
 
 <div style="text-align: justify;">
 
