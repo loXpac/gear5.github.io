@@ -11,11 +11,11 @@ La pizza della mama
 
 ## Introduction
 
-## Part 1
-
-## Part 2
+## About
 
 ## Conclusion
+
+## Contact
 
 <div style="text-align:center"><img src="./assets/plots/yearly_success_hexbin.png" width="80%"></div>
 
