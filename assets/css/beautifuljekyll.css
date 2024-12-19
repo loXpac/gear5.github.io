@@ -476,9 +476,7 @@ footer .footer-custom-content {
 /* --- Post preview (feed) --- */
 
 .posts-list {
-    max-width: 1200px; /* Adjust to your preferred width */
-    margin: 0 auto;    /* Center align */
-    padding: 0 20px;   /* Add horizontal padding */
+    margin: 0;   
 }
 
 .post-preview {
