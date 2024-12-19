@@ -75,6 +75,8 @@ Eiusmod sit voluptate cillum cupidatat dolore aliquip ut nulla mollit. Lorem fug
  <iframe src="assets/plots/bubble_plot.html" style="width: 100%; height: 620px; border: none;"></iframe>
 </div>
 
+Hi
+
 <div style="text-align: center;">
  <iframe src="assets/plots/horbar.html" style="width: 100%; height: 620px; border: none;"></iframe>
 </div>
