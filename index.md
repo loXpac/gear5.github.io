@@ -13,7 +13,7 @@ cover-img: "/assets/img/nevjuice.jpg"
 
 </div>
 
-## The dataset
+# The dataset
 
 <div style="text-align:justify;">
 </div>
@@ -35,7 +35,7 @@ cover-img: "/assets/img/nevjuice.jpg"
  <img src="assets/plots/movie_success_hexbin.png" style="width: 50%;"/>
 </div>
 
-## Part 1
+# Part 1
 
 <div style="text-align: justify;">
   Voluptate deserunt elit ad officia enim voluptate duis nostrud culpa sint do laborum ad. Cupidatat amet enim aliqua esse eiusmod amet. Ut enim elit ad nostrud do eu sit sint tempor culpa ea dolor. Nisi exercitation elit id Lorem commodo culpa. Eiusmod irure velit ea id incididunt labore sint deserunt tempor. Eiusmod commodo voluptate ut exercitation et ipsum nulla.
@@ -45,7 +45,7 @@ cover-img: "/assets/img/nevjuice.jpg"
  <iframe src="assets/plots/genre_piechart.html" style="width: 100%; height: 620px; border: none;"></iframe>
 </div>
 
-## Part 2
+# Part 2
 
 <div style="text-align: justify;">
   Duis laborum pariatur sint culpa duis amet exercitation. Veniam consequat tempor labore consequat reprehenderit amet irure pariatur dolore proident occaecat pariatur voluptate. Aliquip eu velit magna laboris fugiat veniam sint officia eiusmod minim deserunt magna.
@@ -59,7 +59,7 @@ cover-img: "/assets/img/nevjuice.jpg"
  <iframe src="assets/plots/movie_counts_by_genre_subset.html" style="width: 100%; height: 450px; border: none;"></iframe>
 </div>
 
-## Part 3
+# Part 3
 
 <div style="text-align: center;">
  <iframe src="assets/plots/success_score_distribution.html" style="width: 100%; height: 500px; border: none;"></iframe>
@@ -71,7 +71,7 @@ cover-img: "/assets/img/nevjuice.jpg"
 
 Eiusmod sit voluptate cillum cupidatat dolore aliquip ut nulla mollit. Lorem fugiat consequat aliquip laboris qui laborum enim nostrud amet reprehenderit. Non ad cupidatat id cillum velit laboris Lorem. Dolore culpa ex exercitation est id laborum sit. Ex dolor excepteur ut voluptate eiusmod tempor ad excepteur labore enim. Id amet consectetur occaecat amet eiusmod.
 
-## Conclusion
+# Conclusion
 
 <div style="text-align: center;">
 <iframe src="assets/plots/precomputed_choropleth_fixed_colorbar.html" style="width: 100%; height: 500px; border: none;"></iframe>
