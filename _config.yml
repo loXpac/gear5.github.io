@@ -19,12 +19,23 @@ author: Bastien Armstrong, Léo Bruneau, Loïc Domingos, Mahmoud Dokmak, Matthie
 # --- List of links in the navigation bar --- #
 ###############################################
 
+navigation:
+  - name: Home
+    link: /
+  - name: Introduction
+    link: /##introduction
+  - name: About
+    link: /##about
+  - name: Contact
+    link: /##contact
+
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+Home: "/"
+#  About Me: "aboutme"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
