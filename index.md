@@ -69,12 +69,25 @@ cover-img: "/assets/img/nevjuice.jpg"
  <iframe src="assets/plots/top_movies.html" style="width: 100%; height: 650px; border: none;"></iframe>
 </div>
 
+<div style="text-align: center;">
+ <iframe src="assets/plots/bubble_success_by_decade.html" style="width: 100%; height: 650px; border: none;"></iframe>
+</div>
+
+<div style="text-align: center;">
+ <iframe src="assets/plots/bubble_plot.html" style="width: 100%; height: 650px; border: none;"></iframe>
+</div>
+
 Eiusmod sit voluptate cillum cupidatat dolore aliquip ut nulla mollit. Lorem fugiat consequat aliquip laboris qui laborum enim nostrud amet reprehenderit. Non ad cupidatat id cillum velit laboris Lorem. Dolore culpa ex exercitation est id laborum sit. Ex dolor excepteur ut voluptate eiusmod tempor ad excepteur labore enim. Id amet consectetur occaecat amet eiusmod.
 
 # Conclusion
 
 <div style="text-align: center;">
 <iframe src="assets/plots/precomputed_choropleth_fixed_colorbar.html" style="width: 100%; height: 500px; border: none;"></iframe>
+</div>
+
+
+<div style="text-align: center;">
+<iframe src="assets/plots/movie_metrics_all_genres.html" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
 
 <div style="text-align: justify;">
