@@ -20,10 +20,8 @@ author: Bastien Armstrong, Léo Bruneau, Loïc Domingos, Mahmoud Dokmak, Matthie
 ###############################################
 
 navbar-links:
-- name: Home
-    link: /
-- name: Introduction
-    link: /#introduction
+Home :
+    - Introduction: "/#introduction"
 - name: About
     link: /#about
 - name: Conclusion
