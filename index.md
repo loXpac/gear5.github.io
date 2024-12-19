@@ -7,7 +7,7 @@ cover-img: "/assets/img/geneve-sx-projektionC-de8eb634.jpg"
 
 # The data story name
 
-La pizza della mama
+La pizza della mama !
 
 ## Introduction
 
