@@ -23,11 +23,13 @@ navigation:
   - name: Home
     link: /
   - name: Introduction
-    link: /##introduction
+    link: /#introduction
   - name: About
-    link: /##about
+    link: /#about
+  - name: Conclusion
+    link: /#conclusion
   - name: Contact
-    link: /##contact
+    link: /#contact
 
 navbar-links:
 Home: "/"
