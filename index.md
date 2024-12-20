@@ -163,7 +163,7 @@ Also, to keep the graphs visually pleasing, we are only going to keep genres wit
 </div>
 
 <div style="text-align: center;">
-<iframe src="assets/plots/StackedImpactOverTime.png" style="width: 100%; height: 500px; border: none;"></iframe>
+<iframe src="assets/plots/StackedImpactOverTime.html" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
 
 <div style="text-align: justify;">
@@ -171,7 +171,7 @@ We can check if these impact timeseries are in agreement with the golden ages we
 </div>
 
 <div style="text-align: center;">
-<iframe src="assets/plots/NormalizedGenreImpact.png" style="width: 100%; height: 500px; border: none;"></iframe>
+<iframe src="assets/plots/NormalizedGenreImpact.html" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
 
 <div style="text-align: justify;">
