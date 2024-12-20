@@ -278,8 +278,8 @@ We can check if these impact timeseries are in agreement with the golden ages we
   </p>
 </div>
 
-## As The Curtains Close
+## Final Act: The Curtain Falls
 
 <div style="text-align: justify;">
-  Excepteur pariatur qui reprehenderit mollit aliqua voluptate. Voluptate nisi amet ex ea esse velit laboris deserunt Lorem aute. Laborum pariatur elit magna qui. Cillum et irure adipisicing officia. Duis laborum pariatur sint culpa duis amet exercitation. Veniam consequat tempor labore consequat reprehenderit amet irure pariatur dolore proident occaecat pariatur voluptate. Aliquip eu velit magna laboris fugiat veniam sint officia eiusmod minim deserunt magna.
-</div>
+Cinema has always been a reflection of society, constantly evolving and adapting. Over the years, it has transformed significantly with advancements in technology and shifts in cultural perspectives, giving rise to new genres and fresh ideas. Our "Success Metric" highlights how films, genres, and eras have left an indelible mark, demonstrating that the Golden Age of cinema is not a singular moment but an ongoing journey. Let’s sit and explore the future as the next chapter of cinema unfolds.
+ </div>
