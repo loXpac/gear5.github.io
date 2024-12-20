@@ -184,26 +184,6 @@ cover-img: "/assets/img/nevjuice.jpg"
     This Success Metric looks rock solid to me ! <br/>
 
   </p>
-</div>
-
-
-<div style="text-align: center;">
- <iframe src="assets/plots/bubble_plot.html" style="width: 100%; height: 650px; border: none;"></iframe>
-</div>
-
-
-<div style="text-align: justify;">
-  <p>
-    Let's dig in to the juicy results now... <br/> <br/>
-    Overall, you will notice that the mean Success Score per decade is increasing for nearly all genres, indicating that our movie producers also seem to be constantly on the hunt for better ideas, better realizations, and thus ever more money in their pockets... Let's look at it in more details :
-    <ol>
-    <li> Some genres seem to be more and more successful as time goes on, what exactly are people seeking to distract themselves from the boring day to day life ? Well, it seems that adrenaline filled Action and Adrenaline movies seem to be exponentially more successful. I guess we simply all want to feel something in our cold little hearts.</li> <br/>
-    <li> Surprisingly, feel good movies aren't ageing as well as action packed movies, with  Romance-related movies  not improving too much</li> <br/>
-    <li>Some genres appear to be more stubborn, or simply less suited to the greater audience. Documentaries, short films and comedy films might simply have exhausted their allocated space in people's hearts...
-    </li> <br/>
-    <li> More doesn't mean better, there might be a bit too much Drama in people's lives...</li>
-  </ol>
-  </p>
   <p>
   Now that we know how the metric evolves temporally, let's peek at how it evolves through space and what we can infer from that ! 
   </p>
@@ -227,6 +207,27 @@ cover-img: "/assets/img/nevjuice.jpg"
   </p>
 </div>
 
+## Act II : Tell Me More
+
+<div style="text-align: center;">
+ <iframe src="assets/plots/bubble_plot.html" style="width: 100%; height: 650px; border: none;"></iframe>
+</div>
+
+
+<div style="text-align: justify;">
+  <p>
+    Let's dig in to the juicy results now... <br/> <br/>
+    Overall, you will notice that the mean Success Score per decade is increasing for nearly all genres, indicating that our movie producers also seem to be constantly on the hunt for better ideas, better realizations, and thus ever more money in their pockets... Let's look at it in more details :
+    <ol>
+    <li> Some genres seem to be more and more successful as time goes on, what exactly are people seeking to distract themselves from the boring day to day life ? Well, it seems that adrenaline filled Action and Adrenaline movies seem to be exponentially more successful. I guess we simply all want to feel something in our cold little hearts.</li> <br/>
+    <li> Surprisingly, feel good movies aren't ageing as well as action packed movies, with  Romance-related movies  not improving too much</li> <br/>
+    <li>Some genres appear to be more stubborn, or simply less suited to the greater audience. Documentaries, short films and comedy films might simply have exhausted their allocated space in people's hearts...
+    </li> <br/>
+    <li> More doesn't mean better, there might be a bit too much Drama in people's lives...</li>
+  </ol>
+  </p>
+</div>
+
 <div style="text-align: center;">
 <iframe src="assets/plots/horbar_decade.html" style="width: 100%; height: 620px; border: none;"></iframe>
 </div>
@@ -240,12 +241,6 @@ cover-img: "/assets/img/nevjuice.jpg"
   <p>
     Let's delve deeper on some representing genres to see if we can further define their Golden Days !
   </p>
-</div>
-
-## Act II : Tell Me More
-
-<div style="text-align: justify;">
-  Léo, il adore manger du caca
 </div>
 
 ## Act III : I Can Now See the Way
