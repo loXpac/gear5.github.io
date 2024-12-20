@@ -228,7 +228,18 @@ cover-img: "/assets/img/nevjuice.jpg"
 </div>
 
 <div style="text-align: center;">
-<iframe src="assets/plots/horbar_decade.html" style="width: 100%; height: 500px; border: none;"></iframe>
+<iframe src="assets/plots/horbar_decade.html" style="width: 100%; height: 620px; border: none;"></iframe>
+</div>
+
+<div style="text-align: justify;">
+  <p>
+    Well, recent years seem to be promising for most genres, with the adrenaline filled genres being impressively successful. But let's not get too happy as the sample cluster might be reduced on these time frames thus artificially boosting the mean by having fewer samples... <br/> <br/>
+    Some genres such Documentaries, Silent Films and even Romance Films have peaked on the other hand... Even though, few Black & White were produced in the 80s, they were more successful than in the hey day of Black and White Movies... Another case of low sample count ?
+  </p>
+
+  <p>
+    Let's delve deeper on some representing genres to see if we can further define their Golden Days !
+  </p>
 </div>
 
 ## Act II : Tell Me More
