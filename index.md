@@ -167,11 +167,15 @@ We can check if these impact timeseries are in agreement with the golden ages we
 <iframe src="assets/plots/NormalizedGenreImpact.png" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
 
-From these graphs, one thing is clear: The movie industry is thriving! We can see a real explosion of the impact over the recent years. This can in part be explained by our dataset having more data about recent movies. 
+From these graphs, one thing is clear: The movie industry is thriving! We can see a real explosion of the impact over the recent years. This can in part be explained by our dataset having more data about recent movies. Another interesting thing to note is that eventhough all genres seem to be experiencing a golden age in recent year, there are two outliers: Black-and-White movies and Silent films. They experienced their golden age in the 40's and in the 30's respectively. Finally, even before gazing into the crystal ball, we can see that Comedy films have experienced a sudden growth in recent years. This may indicate a future golden age for this genre in the future. However, this remains to be seen from our predictions. 
 
-Another interesting thing to note is that eventhough all genres seem to be experiencing a golden age in recent year, there are two outliers: Black-and-White movies and Silent films. They experienced their golden age in the 40's and in the 30's respectively. 
+One last thing we can do before looking at the prediction is evaluating the relative impact of each genre for different time periods. 
 
-Finally, before gazing into the crystal ball, we can see that Comedy films have experienced a sudden growth in recent years. This may indicate a future golden age for this genre in the future. However, this remains to be seen from our predictions. 
+<div style="text-align: center;">
+<iframe src="assets/plots/relativeImpactRadar.html" style="width: 100%; height: 500px; border: none;"></iframe>
+</div>
+
+We can see from this graph the slow decline of the Black-and-White movies who once represented more than 35% of the impact. This domination has been replaced by the Dramas throughout the 60's until the 2010's. However, this domination seems to be slowing down, with new genres emerging such as Thrillers, Action movies and Comedies. But enough said about the past. Let's now look into the future!
 
 
 
