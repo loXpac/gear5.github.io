@@ -39,7 +39,7 @@ author: Bastien Armstrong, Léo Bruneau, Loïc Domingos, Mahmoud Dokmak, Matthie
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/Portrait.jonathanjoestar.jpg"
+avatar: "assets/img/star.webp"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
