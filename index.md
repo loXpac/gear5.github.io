@@ -151,31 +151,39 @@ cover-img: "/assets/img/nevjuice.jpg"
 
 ## Act III : I Can Now See the Way
 
+<div style="text-align: justify;">
 For the final act of our grand data journey, we gazed into the crystal ball and predicted future trends in the movie industry. To do this, we combined the data of our success metric for each genre and projected their influence on the movie industry. This allowed us to compare the impact of each genre over time. When calculating the impact, we focused on two main points:
 - Scaling: More successful movies have more of an impact. Makes sense right?
 - Causality: No time travelling in this movie! We do not want the success of a movie to have an impact before it's release.
 
 Also, to keep the graphs visually pleasing, we are only going to keep genres with more than 3000 movies. This represents a total of 19 genres!
+</div>
 
 <div style="text-align: center;">
 <iframe src="assets/plots/StackedPlotImpact.png" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
 
+<div style="text-align: justify;">
 We can check if these impact timeseries are in agreement with the golden ages we found in the previous parts. To better visualize this, we can normalize the impact for each genre and plot them over time to find the following plot:
+</div>
 
 <div style="text-align: center;">
 <iframe src="assets/plots/NormalizedGenreImpact.png" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
 
+<div style="text-align: justify;">
 From these graphs, one thing is clear: The movie industry is thriving! We can see a real explosion of the impact over the recent years. This can in part be explained by our dataset having more data about recent movies. Another interesting thing to note is that eventhough all genres seem to be experiencing a golden age in recent year, there are two outliers: Black-and-White movies and Silent films. They experienced their golden age in the 40's and in the 30's respectively. Finally, even before gazing into the crystal ball, we can see that Comedy films have experienced a sudden growth in recent years. This may indicate a future golden age for this genre in the future. However, this remains to be seen from our predictions. 
 
-One last thing we can do before looking at the prediction is evaluating the relative impact of each genre for different time periods. 
+One last thing we can do before looking at the prediction is evaluating the relative impact of each genre for different time periods.
+</div> 
 
 <div style="text-align: center;">
 <iframe src="assets/plots/relativeImpactRadar.html" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
 
+<div style="text-align: justify;">
 We can see from this graph the slow decline of the Black-and-White movies who once represented more than 35% of the impact. This domination has been replaced by the Dramas throughout the 60's until the 2010's. However, this domination seems to be slowing down, with new genres emerging such as Thrillers, Action movies and Comedies. But enough said about the past. Let's now look into the future!
+</div>
 
 
 
