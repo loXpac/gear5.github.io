@@ -93,3 +93,7 @@ Eiusmod sit voluptate cillum cupidatat dolore aliquip ut nulla mollit. Lorem fug
 <div style="text-align: justify;">
   Excepteur pariatur qui reprehenderit mollit aliqua voluptate. Voluptate nisi amet ex ea esse velit laboris deserunt Lorem aute. Laborum pariatur elit magna qui. Cillum et irure adipisicing officia. Duis laborum pariatur sint culpa duis amet exercitation. Veniam consequat tempor labore consequat reprehenderit amet irure pariatur dolore proident occaecat pariatur voluptate. Aliquip eu velit magna laboris fugiat veniam sint officia eiusmod minim deserunt magna.
 </div>
+
+<div style="text-align: center;">
+<iframe src="assets/plots/horbar_decade.html" style="width: 100%; height: 600px; border: none;"></iframe>
+</div>
