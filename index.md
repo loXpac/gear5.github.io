@@ -126,6 +126,10 @@ cover-img: "/assets/img/nevjuice.jpg"
 <iframe src="assets/plots/precomputed_choropleth_fixed_colorbar.html" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
 
+<div style="text-align: center;">
+<iframe src="assets/plots/horbar.html" style="width: 100%; height: 500px; border: none;"></iframe>
+</div>
+
 ## Act II : Tell Me More
 
 <div style="text-align: justify;">
