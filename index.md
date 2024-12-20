@@ -113,48 +113,138 @@ cover-img: "/assets/img/nevjuice.jpg"
 </div>
 
 ## Act I : A New Metric Awakens
-
-<div style="display: flex; justify-content: center;">
- <img src="assets/plots/success_metric_histogram.png" style="width: 50%;"/>
- <img src="assets/plots/movie_success_hexbin.png" style="width: 50%;"/>
-</div>
-
 <div style="text-align: justify;">
-  Voluptate deserunt elit ad officia enim voluptate duis nostrud culpa sint do laborum ad. Cupidatat amet enim aliqua esse eiusmod amet. Ut enim elit ad nostrud do eu sit sint tempor culpa ea dolor. Nisi exercitation elit id Lorem commodo culpa. Eiusmod irure velit ea id incididunt labore sint deserunt tempor. Eiusmod commodo voluptate ut exercitation et ipsum nulla.
-</div>
-
-<div style="text-align: center;">
- <iframe src="assets/plots/bubble_plot.html" style="width: 100%; height: 620px; border: none;"></iframe>
-</div>
-
-<div style="text-align: center;">
- <iframe src="assets/plots/success_score_distribution.html" style="width: 100%; height: 620px; border: none;"></iframe>
+  <p>
+    So far, so good, right ?! <br/> <br/>
+    Now, let's assemble all this into a not so black box ! 
+  <ol>
+  <li>
+    Let's first start by capping the popularity scores to no more than 28, as those outlandishly popular values would bring our success metric to favor those movies.
+  </li>
+  <br/>
+  <li>
+    Now let's normalize the ratings, the inflation-adjusted box office revenue, the popularity score. This will allow the metric to assess where one feature is behind in a movie.
+  </li>
+<br/>
+  <li>
+    Now, let's penalize the movies that have low vote counts in the ratings, so to not favor movies that have 1 or 2 excellent, but misleading, reviews.
+  </li>
+<br/>
+  <li>
+    Now for a bit of black magic, instead of dropping the missing values in our columns, we will give as missing input the mean of the column, this will not make any of the best movies any worse and change the mean values. The only downside is the case where it is missing the data because it is an obscure weird movie. No worries, it works like a charm !
+  </li>
+<br/>
+  <li>
+    Combine it all by adding a pondered average with specific weights for each feature ; popularity with 10, the adjusted box-office with 8, the SA Score with 3, and finally give a weight of 3 for the ratings. This will minimize the missing data in the ratings and SA scores, and not influence our distribution too much. Bring it back to a score out of 5 by normalizing it, and doneso !
+  </li>
+  </ol>
+<br/>
+  Et voilà !!! A perfectly nice score out of 5, which is a nicely accurate description of the success of a film ! <br/>
+  Let's check what it all looks like, and let's also verify that the top scoring movies are actually movies that were quite successful in their own ways !
+  </p>
 </div>
 
 <div style="text-align: center;">
  <iframe src="assets/plots/top_movies_vertical_radiobuttons.html" style="width: 100%; height: 620px; border: none;"></iframe>
 </div>
 
+<div style="text-align: justify;">
+  <p>
+    Great, I don't know about you, but as a fine film connoisseur, I ain't much too surprised with those movies. <br/><br/>
+    Who hasn't cried in front of Bambi ??? Don't say you haven't we all know it's a big fat lie, don't worry this story is a safe space. <br/><br/>
+    Nonetheless, all the movies that we see here are a hallmark of some sort, with different genres represented as well, and different timescales, implying that our success metric can be used accurately on a broad field of movies ! <br/><br/>
+    When looking at how Bambi scored, it's excellent score comes from a combination of excellent box office adjusted for inflation, and a popularity score that was higher than the clipping value thus excellent, as well as good SA scores and ratings. A recipe for success, one might say... 
+  </p>
+</div>
+
+<div style="text-align: center;">
+ <iframe src="assets/plots/success_score_distribution.html" style="width: 100%; height: 620px; border: none;"></iframe>
+</div>
+
+<div style="text-align: justify;">
+  <p>
+    This distribution looks quite pleasing, not exactly a perfect Normal Gaussian Distribution, but not too far off !<br/>
+    Some outliers here and there, but this is normal as we are normalizing them on those MinMax values. <br/> <br/>
+    What can we say, this looks promising, the average Success Score isn't quite high, but still high enough to be able to use without too much worries.
+  </p>
+
+  <p>
+    Now let's look at the evolution of the temporal distribution of our Success Scores, regardless of the genres.
+  </p>
+</div>
+
+<div style="display: flex; justify-content: center;">
+ <img src="assets/plots/movie_success_hexbin.png" style="width: 100%;"/>
+</div>
+
+<div style="text-align: justify;">
+  <p>
+    That looks quite appetizing, Your eagle eyes might hav seen that a baseline around the mean Success Metric appeared. With more and more spread for higher Success Scores as time evolved. One can see the faint distribution of the top scorers, ranging from the late 30s all the way to nowadays. <br/> <br/>
+    The sharp increase in movie production can still be accounted for while still having the mean Success Score stable. This makes sense as more movies are produced, one is bound to not only produce more mediocre movies as well more good ones ! <br/><br/>
+    This Success Metric looks rock solid to me ! <br/>
+
+  </p>
+</div>
+
+
+<div style="text-align: center;">
+ <iframe src="assets/plots/bubble_plot.html" style="width: 100%; height: 650px; border: none;"></iframe>
+</div>
+
+
+<div style="text-align: justify;">
+  <p>
+    Let's dig in to the juicy results now... <br/> <br/>
+    Overall, you will notice that the mean Success Score per decade is increasing for nearly all genres, indicating that our movie producers also seem to be constantly on the hunt for better ideas, better realizations, and thus ever more money in their pockets... Let's look at it in more details :
+    <ol>
+    <li> Some genres seem to be more and more successful as time goes on, what exactly are people seeking to distract themselves from the boring day to day life ? Well, it seems that adrenaline filled Action and Adrenaline movies seem to be exponentially more successful. I guess we simply all want to feel something in our cold little hearts.</li> <br/>
+    <li> Surprisingly, feel good movies aren't ageing as well as action packed movies, with  Romance-related movies  not improving too much</li> <br/>
+    <li>Some genres appear to be more stubborn, or simply less suited to the greater audience. Documentaries, short films and comedy films might simply have exhausted their allocated space in people's hearts...
+    </li> <br/>
+    <li> More doesn't mean better, there might be a bit too much Drama in people's lives...</li>
+  </ol>
+  </p>
+  <p>
+  Now that we know how the metric evolves temporally, let's peek at how it evolves through space and what we can infer from that ! 
+  </p>
+</div>
+
+
 <div style="text-align: center;">
 <iframe src="assets/plots/precomputed_choropleth_fixed_colorbar.html" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
 
+<div style="text-align: justify;">
+  Interesting, when looking at the worldwide distribution of the mean Success Score for the top 10 best movies, you can probably see that the United States are nearly one full point ahead of the next closest country, with the spatial repartition mostly around the most developed countries (not too surprising unfortunately). <br/><br/>
+  When increasing the mean to more and more movies, three things jump to our minds : 
+  <ol>
+  <li> The United States truly have a grip on the best movies as it is only when taking all the movies that we see the mean Success Score dips below 3.</li> <br/>
+  <li> Japan and France are the only countries that can stay within a point of the US all the way until we're taking the full dataset. </li><br/>
+  <li> When looking at all the movies, you can grasp how the movie produced per country will influence the mean score per country as the United Arab Emirates and Libya shoot up the rankings, even in front of the US, showcasing how producing a vast amount of all kinds of movies can lead to the mean Success Score to drop behind smaller production countries. </li>
+  </ol>
+  <p>
+    Now that we have an accurate way of defining success, what can we say about the most successful time frame for a specific genre ? Let's take a look at this together.
+  </p>
+</div>
+
 <div style="text-align: center;">
-<iframe src="assets/plots/horbar.html" style="width: 100%; height: 500px; border: none;"></iframe>
+<iframe src="assets/plots/horbar_decade.html" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
 
 ## Act II : Tell Me More
 
 <div style="text-align: justify;">
-  Duis laborum pariatur sint culpa duis amet exercitation. Veniam consequat tempor labore consequat reprehenderit amet irure pariatur dolore proident occaecat pariatur voluptate. Aliquip eu velit magna laboris fugiat veniam sint officia eiusmod minim deserunt magna.
+  Léo, il adore manger du caca
 </div>
 
 ## Act III : I Can Now See the Way
 
-Eiusmod sit voluptate cillum cupidatat dolore aliquip ut nulla mollit. Lorem fugiat consequat aliquip laboris qui laborum enim nostrud amet reprehenderit. Non ad cupidatat id cillum velit laboris Lorem. Dolore culpa ex exercitation est id laborum sit. Ex dolor excepteur ut voluptate eiusmod tempor ad excepteur labore enim. Id amet consectetur occaecat amet eiusmod.
+<div style="text-align: justify;">
+  Louis, il adore boire du pipi
+</div>
 
 ## As The Curtains Close
 
 <div style="text-align: justify;">
-  Excepteur pariatur qui reprehenderit mollit aliqua voluptate. Voluptate nisi amet ex ea esse velit laboris deserunt Lorem aute. Laborum pariatur elit magna qui. Cillum et irure adipisicing officia. Duis laborum pariatur sint culpa duis amet exercitation. Veniam consequat tempor labore consequat reprehenderit amet irure pariatur dolore proident occaecat pariatur voluptate. Aliquip eu velit magna laboris fugiat veniam sint officia eiusmod minim deserunt magna.
+  Loïc ca rime moins
 </div>
