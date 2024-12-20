@@ -278,6 +278,17 @@ We can check if these impact timeseries are in agreement with the golden ages we
   </p>
 </div>
 
+<div style="display: flex; justify-content: center;">
+ <img src="assets/plots/world_cinema_pred.png" style="width: 100%;"/>
+</div>
+
+<div style="text-align: justify;">
+  <p>
+  By comparing the predictions of ARIMA and Polynomial Regression on the World Cinema genre, we can see that for this case they both accurately portray the behavior. If you have the time and computational resources we would advise you to use ARIMA, or another predictor like Prophet... <br/>
+  We now finally have all the tools to forecast the industry quite accurately and take over the world ! 
+  </p>
+</div>
+
 ## Final Act: The Curtain Falls
 
 <div style="text-align: justify;">
