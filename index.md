@@ -60,11 +60,11 @@ cover-img: "/assets/img/nevjuice.jpg"
 <ol>
   <li>
   The most common trend is the simple exponential increase in movie production throughout the years, with representative genres like Drama or World Cinema. One can also see the small step-like plateaus in the increase, maybe implying small saturations every decade or so.
-  </li>
+  </li><br/>
 
   <li>
     The next interesting shape is how the Indie Genre underwent a rebirth, with many movies produced from the 1910s to 1930s, then a pseudo-death of the medium until a new life was instilled in the genre by the 60s. Could that be the transition from independent movie producers to big studio conglomerates, until the return of the amateur as technology got more accessible ?
-  </li>
+  </li><br/>
 
   <li>
     Finally, on a sadder note, some genres simply did not survive or just fell off. Yes, we're talking about you Mr. Black & White, or Ms. Silent. They simply weren't the same after the 60s and 30s respectively.
@@ -82,21 +82,21 @@ cover-img: "/assets/img/nevjuice.jpg"
   <ol>
     <li>
       An increase in popularity, in more recent movies for genres such as Action, Adventure or even Crime Fiction. 
-    </li>
+    </li><br/>
 
   <li>
       A stable popular view for Genres like World Cinema, which seems to be enjoyed for any of its movies equally.
-  </li>
+  </li><br/>
 
   <li>
     And a more appreciative view of old movies and more recent ones with a gap in the middle for genres like Black & White, or Indie.
-  </li>
+  </li><br/>
   </ol>
   One must note the lack of popularity score for some genres, either irregularly or before a set time, due to the data acquisition from this shared dataset, as well as how the score itself is given with a vast majority of low popularity scores, with some ultra popular scorers. Yes, Adventure we can see that peak.
 </p>
 
 <p>
-  For the next feature, we wanted to be nice and chew up the work a bit for you, we thus collected a big chunk of reviews online, fed them through a RoBERTa Sentiment Analysis (SA)pipeline, and thus obtained a score from -1 (highly negative review) to 1(most certainly a great time) that we added for each year of a genre thus giving the mean SA score for that year. <br/>
+  For the next feature, we wanted to be nice and chew up the work a bit for you, we thus collected a big chunk of reviews online, fed them through a BERT Sentiment Analysis (SA) pipeline, and thus obtained a score from 0 (highly negative review) to 1(most certainly a great time) that we added for each year of a genre thus giving the mean SA score for that year. <br/>
   Hence, the very nature of this score is dependant on the availability of reviews for this movie, big gaps may occur...
   A general trend though is that the mean SA score is at least slightly positive with greater variation on years not in the 90s to 2010s (where a consensus was seemingly reached, or reviews simply started to be boringly similar).
 </p>
