@@ -151,7 +151,18 @@ cover-img: "/assets/img/nevjuice.jpg"
 
 ## Act III : I Can Now See the Way
 
-Eiusmod sit voluptate cillum cupidatat dolore aliquip ut nulla mollit. Lorem fugiat consequat aliquip laboris qui laborum enim nostrud amet reprehenderit. Non ad cupidatat id cillum velit laboris Lorem. Dolore culpa ex exercitation est id laborum sit. Ex dolor excepteur ut voluptate eiusmod tempor ad excepteur labore enim. Id amet consectetur occaecat amet eiusmod.
+What about the situation now and in the future? For the last part of our data journey, we wanted to predict the future trends in the movie industry. To do this, we combined the data of our success metric for each genre and projected their influence on the movie industry. This allowed us to compare the impact of each genre over time. When calculating the impact, we focused on two main points:
+- Scaling: We wanted more successful movies to have more impact. For now this makes sense.
+- Causality: We didn't want the success of a movie to have an impact before it's release.
+
+Here is what we got!
+<div style="text-align: center;">
+<iframe src="assets/plots/StackedPlotImpact.png" style="width: 100%; height: 500px; border: none;"></iframe>
+</div>
+
+With this impact series, we can predict the future trends in the movie industry. 
+
+
 
 ## As The Curtains Close
 
