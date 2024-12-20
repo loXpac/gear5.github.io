@@ -18,7 +18,7 @@ cover-img: "/assets/img/nevjuice.jpg"
   </p>
   
   <p>
-    You might wonder where one would even start and know what defines a successful movie ? Is it it's box office revenue, is it how known it is, how popular it is with critics and fans ? How many languages it has been translated to or how many countries it has been distributed in ?  
+    You might wonder where one would even start to know what defines a successful movie ? Is it box office revenue, is it how known it is, how popular it is with critics and fans ? How many languages it has been translated to or how many countries it has been distributed in ?  
   </p>
 
   <p>
@@ -42,7 +42,7 @@ cover-img: "/assets/img/nevjuice.jpg"
   </p>
 
   <p>
-    Now, let's see what features one would need to chose to get a good recipe for a success metric !
+    Now, let's see what features one would need to choose to get a good recipe for a success metric !
   </p>
 
 </div>
@@ -54,7 +54,7 @@ cover-img: "/assets/img/nevjuice.jpg"
 <div style="text-align: justify;">
   Well, well, well, what do we have here ? <br/> <br/>
   Let us begin by looking at the Number of movies by genre over time.<br/>
-  The first thing to notice is that for nearly every genre, the production rate as massively increased since the beginning of movie production, bar a few exceptions.<br/>
+  The first thing to notice is that for nearly every genre, the production rate massively increased since the beginning of movie production, bar a few exceptions.<br/>
   Let's first start with the number of movies throughout the past century; there are few trends emerging already... <br/> <br/>
   
 <ol>
