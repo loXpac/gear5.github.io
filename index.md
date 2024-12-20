@@ -281,5 +281,5 @@ We can check if these impact timeseries are in agreement with the golden ages we
 ## Final Act: The Curtain Falls
 
 <div style="text-align: justify;">
-Cinema has always been a reflection of society, constantly evolving and adapting. Over the years, it has transformed significantly with advancements in technology and shifts in cultural perspectives, giving rise to new genres and fresh ideas. Our "Success Metric" highlights how films, genres, and eras have left an indelible mark, demonstrating that the Golden Age of cinema is not a singular moment but an ongoing journey. Let’s sit and explore the future as the next chapter of cinema unfolds.
+Cinema has always been a reflection of society, constantly evolving and adapting. Over the years, it has transformed significantly with advancements in technology and shifts in cultural perspectives, giving rise to new genres and fresh ideas. Our "Success Metric" highlights how films, genres, and eras have left an indelible mark, demonstrating that the Golden Age of cinema is not a singular moment but an ongoing journey, inviting us to uncover its untold stories and observe its future evolution.
  </div>
