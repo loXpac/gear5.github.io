@@ -77,27 +77,40 @@ cover-img: "/assets/img/nevjuice.jpg"
 </p>
 
 <p>
-  The next feature that one would need to analyze would be the popularity of a movie, this 
+  The next feature that one would need to analyze would be the popularity of a movie. This is pulled from the IMDB website and dataset, and calculated based on how a movie is perceived by the the online audience compared to the rest of the movies available, see it as a nice and friendly contest which rewards heavily popular movies, thus putting an emphasis on movies that are currently enjoyed as well as all time great movies. <br/>
+  Here, we can see a few trends appear out of our delicious data :
+  <ol>
+    <li>
+      An increase in popularity, in more recent movies for genres such as Action, Adventure or even Crime Fiction. 
+    </li>
+
+  <li>
+      A stable popular view for Genres like World Cinema, which seems to be enjoyed for any of its movies equally.
+  </li>
+
+  <li>
+    And a more appreciative view of old movies and more recent ones with a gap in the middle for genres like Black & White, or Indie.
+  </li>
+  </ol>
+  One must note the lack of popularity score for some genres, either irregularly or before a set time, due to the data acquisition from this shared dataset, as well as how the score itself is given with a vast majority of low popularity scores, with some ultra popular scorers. Yes, Adventure we can see that peak.
 </p>
 
+<p>
+  For the next feature, we wanted to be nice and chew up the work a bit for you, we thus collected a big chunk of reviews online, fed them through a RoBERTa Sentiment Analysis (SA)pipeline, and thus obtained a score from -1 (highly negative review) to 1(most certainly a great time) that we added for each year of a genre thus giving the mean SA score for that year. <br/>
+  Hence, the very nature of this score is dependant on the availability of reviews for this movie, big gaps may occur...
+  A general trend though is that the mean SA score is at least slightly positive with greater variation on years not in the 90s to 2010s (where a consensus was seemingly reached, or reviews simply started to be boringly similar).
+</p>
 
+<p>
+  Last, but not least the Average Rating was obtained and is similar in nature to the SA Score in how it portrays our data, with coming from the same dataset a lack of data points. It also possesses the same 20 year quirk with this weird consensus...
+</p>
+
+<p>
+  Great ! We now have collected all the Secret Ingredients for a Killer Recipe ! <br/>
+  What comes next is to assemble the Avengers, and save Marvel and the Movie Industry from making boring movies for the rest of our lives... Hard task, but heroes must be brave. <br/> <br/>
+  Let's see how our success metric can be assembled to have a coherent view on the industry.
+</p>
 </div>
-
-## How could we go about defining this "Golden age" ?
-<ol> 
-  <li>
-    Has there ever been a "Golden Age" of cinema ? Which metrics are important to evaluate the global success of the cinema industry and, therefore, a potential "Golden Age" ?
-  </li>
-  <br />
-  <li>
-    What were the specific ages of cinema throughout the years ? Is it possible to observe time-related trends about a specific genre or country ?
-  </li>
-  <br />
-  <li>
-    What about now ? Are we in a specific era ? What are the past decade trends and what could we infer from this ? Can we build a strong metric that predicts a future trend and, therefore, a movie success ?
-  </li>
-
-</ol>
 
 ## Act I : A New Metric Awakens
 
