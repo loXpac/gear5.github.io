@@ -2,7 +2,7 @@
 layout: home
 title: Movie Datastory
 subtitle: Nique les salopes qui parlent en scred
-cover-img: "/assets/img/nevjuice.jpg"
+cover-img: "/assets/img/time.gif"
 ---
 
 # The data story name
